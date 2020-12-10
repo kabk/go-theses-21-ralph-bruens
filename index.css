@@ -1,0 +1,21 @@
+h1 {
+  font-family: sans-serif;
+  background-color: black;
+  color:black;
+}
+
+p{
+  font-family: sans-serif;
+  color:white;
+}
+
+p:hover{
+  font-family: sans-serif;
+  color:black;
+}
+
+::selection{
+  background-color: white;
+  opacity: 1;
+  color:black;
+}
