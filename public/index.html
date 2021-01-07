@@ -7,11 +7,7 @@
   <title></title>
   <link rel="stylesheet" href="build/tailwind.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
-
-
   <script src="build/index.js"></script>
-
-
 </head>
 
 <body class='bg-white'>
@@ -49,45 +45,131 @@
     <h1 id='intro-title' class="text-6xl font-serif text-purple-600 p-4">
       Introduction
     </h1>
-  
-    <div id='intro-text' style="display: none;">
 
-      <p class='object-center text-xl leading-7 text-purple-600 px-4'>
+    <div id='intro-text' style="display: none;">
+      <p class=' text-xl leading-7 text-purple-600 px-4'>
         "The Internet does not exist. Maybe it did exist only a short time ago, but now it only remains as a blur […]"
-        <sup id="fnref:1">
-          <a href="#fn:1" rel="footnote">1</a></sup>
+        <sup class='text-purple-600' id='fn1'>[1]</sup>
       </p>
 
-      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn1'
+        class='absolute m-4 p-2 bg-white  w-80 box-border border border-yellow-900 text-yellow-900 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          E-flux-Journal, The Internet Does Not Exist, Sternberg Press, 2015, pp 5.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn2'
+        class='absolute m-4 p-2 bg-white  w-80 box-border border border-yellow-900 text-yellow-900 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          van der Velden, Daniel and Vinca Kruk. “Captive of The Cloud Part 1” E-flux, Sep 2012,
+          https://www.e-flux.com/journal/37/61232/captives-of-the-cloud-part-i/ Accessed 25 Sep. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='text-xl leading-7 text-purple-600 p-4' ;>
         Society has reached a point where it is no longer possible to avoid the internet. The users' body, mind and
         behaviours are linked to a digital realm with mediation apps, smart TV's and even Wi-Fi connected fridges.
         Often, we see the internet as a democratic and borderless network, where people can meet and communicate. Yet,
         we are witnessing a shift where the internet loses its decentralized structure to a central model.
-        Data is stored and managed in the ‘cloud’ which is owned by a small amount of companies.2
+        Data is stored and managed in the ‘cloud’ which is owned by a small amount of companies.
+        <sup class='text-purple-600' id='fn2'>[2]</sup>
         With the 'cloud' we have access to our documents, photos and videos from any place at any time. These files are
-        on servers, part of a datacentre located somewhere, where a governments law inevitably applies. However, governmental law enforcements
+        on servers, part of a datacentre located somewhere, where a governments law inevitably applies. However,
+        governmental law enforcements
         could demand datacentres to hand over data even from outside their own borders. For example, all data that are
         stored on datacentres of US companies – think about Google or Microsoft – fall under the USA Patriot Act which
         allows the US government to force those companies to hand over personal user data, even if the datacentres are
-        located outside the States.3 As a result, non-US users can be surveilled and monitored by US authorities. What
+        located outside the States.<sup class='text-purple-600' id='fn3'>[3]</sup> As a result, non-US users can be
+        surveilled and monitored by US authorities. What
         would stop a government from using surveillance to target political opponents, journalists, critics or innocent
         citizens?
       </p>
 
+      <!-- /* Footnote popover*/ -->
+      <div id='bn3'
+        class='absolute object-center m-4 p-2 bg-white  w-80 box-border border border-yellow-900 text-yellow-900 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Zack Whittaker, “Summary: ZDNet’s USA PATRIOT Act Series,” ZDNet, April 27, 2011.
+          www.zdnet.com/article/summary-zdnets-usa-patriot-act-series/ Accessed 4 Dec. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn4'
+        class='absolute object-center m-4 p-2 bg-white  w-80 box-border border border-yellow-900 text-yellow-900 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Zenger, Rejo. “Vrijheid komt met encryptie en anonimiteit” Bits of Freedom, 17 Jun. 2015, www.bitsoffreedom.nl/2015/06/17/vrijheid-komt-met-encryptie-en-anonimiteit/ Accessed 5 Dec. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <p class='text-xl leading-7 text-purple-600 p-4' ;>
+        The discourse about anonymity on the internet becomes even more urgent. United Nations Special Rapporteur David
+        Kaye stated: "Encryption and anonymity, today's leading vehicles for online security, provide individuals with a
+        means to protect their privacy, empowering them to browse, read, develop and share opinions and information
+        without interference and enabling [them] the rights to freedom of opinion and expression".<sup class='text-purple-600' id='fn4'>[4]</sup> However, remaining
+        effectively anonymous on the internet for a long time is extremely difficult and requires some knowledge and
+        discipline. You can use fewer and fewer services anonymously. Many platforms already ask for identification –
+        verified profiles are far more interesting to them than anonymous ones. Thereby, websites that offers anonymity,
+        such as 4chan, often portraited by mass media as "the dark corners of the internet" .<sup class='text-purple-600' id='fn5'>[5]</sup> A Dutch graphic design
+        duo specialized in speculative design, Metahaven, discussed this in their book ‘Black Transparency’: "Almost all
+        antidotes to global surveillance goes under shades of black". <sup class='text-purple-600' id='fn6'>[6]</sup> In an era of massive surveillance, working with
+        (encrypted) anonymity is often seen as suspicious behaviour. The same anonymity the Dark Web can provide.
+      </p>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn5'
+        class='absolute object-center m-4 p-2 bg-white  w-80 box-border border border-yellow-900 text-yellow-900 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Zack Whittaker, “Summary: ZDNet’s USA PATRIOT Act Series,” ZDNet, April 27, 2011.
+          www.zdnet.com/article/summary-zdnets-usa-patriot-act-series/ Accessed 4 Dec. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn6'
+        class='absolute object-center m-4 p-2 bg-white  w-80 box-border border border-yellow-900 text-yellow-900 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Zenger, Rejo. “Vrijheid komt met encryptie en anonimiteit” Bits of Freedom, 17 Jun. 2015, www.bitsoffreedom.nl/2015/06/17/vrijheid-komt-met-encryptie-en-anonimiteit/ Accessed 5 Dec. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <p>
+      For me personally, the Dark Web is nothing more than a myth. An online version of Pandora's box. Metahaven goes on to say; "The 'darknet' or the 'Dark Web' is a term often used for a shady internet underworld that sports illicit black markets[...]". 6 However, my interest in the Dark Web focusses less on the unethical activities on the Dark Web. In this research I try to explore the potential of the Dark Web's anonymity in an era where the internet surveillance plays an increasingly important role.
+    </p>
+
+    </div>
+  </div>
+
+  <div class=' bg-white container box-border max-w-full border-t-0 border-r-0 border-b border-l-0 border-purple-600'>
+    <h1 id='p1-title' class="text-6xl font-serif text-purple-600 p-4">
+      Part I
+    </h1>
+
+    <div id='p1-text' style="display: none;">
+      <p class='object-center text-xl leading-7 text-purple-600 px-4'>
+       Blah
+      </p>
     </div>
   </div>
 
 
-  <div class="footnotes"><ol>
-    <li class="footnote" id="fn:1">
-        <p>footnote.<a href="#fnref:1" title="return to article"> ↩</a><p>
-    </li>
-    <li class="footnote" id="fn:2">
-      <p>footnote.<a href="#fnref:2" title="return to article"> ↩</a><p>
-  </li>
-</ol></div>
+
+
 
 
 
