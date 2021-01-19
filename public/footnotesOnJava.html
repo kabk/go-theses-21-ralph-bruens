@@ -6,14 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="build/tailwind.css">
-  <linkrel="stylesheet" href="build/littlefoot.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
   <script src="build/index.js"></script>
-  <script>
-  const { littlefoot } = require('littlefoot')
-
-littlefoot()
-  </script>
 </head>
 
 <body class='bg-white'>
@@ -56,10 +50,29 @@ littlefoot()
     <div id='intro-text' style="display: none;">
       <p class=' text-xl leading-7 text-black-600 px-4'>
         "The Internet does not exist. Maybe it did exist only a short time ago, but now it only remains as a blur […]"
-        <sup id="fnref:1"><a href="#fn:1" class="footnote">[1]</a></sup>
+        <sup class='text-purple-600' id='fn1'>[1]</sup>
       </p>
 
-      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn1'
+        class='absolute m-4 p-2 bg-purple-50   w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          E-flux-Journal, The Internet Does Not Exist, Sternberg Press, 2015, pp 5.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn2'
+        class='absolute m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          van der Velden, Daniel and Vinca Kruk. “Captive of The Cloud Part 1” E-flux, Sep 2012,
+          https://www.e-flux.com/journal/37/61232/captives-of-the-cloud-part-i/ Accessed 25 Sep. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         Society has reached a point where it is no longer possible to avoid the internet. The users' body, mind and
@@ -80,7 +93,27 @@ littlefoot()
         citizens?
       </p>
 
-      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn3'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Zack Whittaker, “Summary: ZDNet’s USA PATRIOT Act Series,” ZDNet, April 27, 2011.
+          www.zdnet.com/article/summary-zdnets-usa-patriot-act-series/ Accessed 4 Dec. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn4'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Zenger, Rejo. “Vrijheid komt met encryptie en anonimiteit” Bits of Freedom, 17 Jun. 2015,
+          www.bitsoffreedom.nl/2015/06/17/vrijheid-komt-met-encryptie-en-anonimiteit/ Accessed 5 Dec. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         The discourse about anonymity on the internet becomes even more urgent. United Nations Special Rapporteur David
@@ -99,7 +132,27 @@ littlefoot()
         (encrypted) anonymity is often seen as suspicious behaviour. The same anonymity the Dark Web can provide.
       </p>
 
-      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn5'
+        class='absolute object-center m-4 p-2 bg-purple-50 w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Cristofaro, Emiliano de. “4chan Raids: How One Dark Corner Of The Internet Is Spreading Its Shadows.
+          Independent, 16 Nov 2016, tinyurl.com/independentcristofaro. Accessed 2 Oct. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn6'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          van der Velden, Daniel and Vinca Kruk. Black Transparency: The Right to Know in the Age of Mass Surveillance.
+          Sternberg Press, 2016, pp 3.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         For me personally, the Dark Web is nothing more than a myth. An online version of Pandora's box. Metahaven goes
@@ -133,6 +186,18 @@ littlefoot()
         of the Deep Web. However, this does not mean that the user or the servers themselves are anonymous. Your online
         footsteps are still clearly visible because you are still logging into a public server.
       </p><br>
+      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn7'
+        class='absolute object-center m-4 p-2 bg-purple-50 w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Greenberg, Andy. "Hacker Lexicon: What Is the Dark Web?" Wired, Conde Nast, 20 Jul. 2017,
+          www.wired.com/2014/11/hacker-lexicon-whats-dark-Web. Accessed 25 Sep. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
     
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         The last category is the Dark Web. This part is a network consisting of millions of different websites. These
@@ -155,6 +220,27 @@ littlefoot()
         rights activists and journalists.<sup class='text-purple-600' id='fn10'>[10]</sup><br>
       </p>
 
+      <!-- /* Footnote popover*/ -->
+      <div id='bn9'
+        class='absolute object-center m-4 p-2 bg-purple-50 w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Greenberg, Andy. "Hacker Lexicon: What Is the Dark Web?" Wired, Conde Nast, 20 Jul. 2017,
+          www.wired.com/2014/11/hacker-lexicon-whats-dark-Web. Accessed 25 Sep. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn10'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Sangers, Ivy. “Wat Is Het Dark Web?”, NPO Focus, npofocus.nl/artikel/7642/wat-is-het-dark-Web. Accessed 2 Oct.
+          2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         Even though I am a registered member of Instagram, so indirectly Facebook, and I have a Twitter and Google
         account, I think it is a matter of principle to choose anonymity on the internet. I believe anonymity provides
@@ -166,6 +252,27 @@ littlefoot()
         devices for the first time; ARPANET started as an invention for academia to exchange ideas freely. Due to its
         success, the US military, which was dealing with the Cold War, also quickly took advantage of it.
       </p><br>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn11'
+        class='absolute object-center m-4 p-2 bg-purple-50 w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Ceruzzi, Paul E. A History of Modern Computing, MIT Press, 2003.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn12'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Power, Mike. “Online highs are old as the net: the first e-commerce was a drugs deal”, The Guardian, 19 Apr.
+          2013, www.theguardian.com/science/2013/apr/19/online-high-net-drugs-deal. Accessed 9 Nov. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         As the US government unleashed ARPANET over the years, the researchers, who mainly worked at universities across
@@ -180,6 +287,27 @@ littlefoot()
         Laboratory had a commercial transaction with their Massachusetts Institute of Technology counterparts. Before
         Amazon, before eBay, e-commerce was a drug deal. The students used the network to quietly control the sale of an
         indefinite amount of marijuana". <sup class='text-purple-600' id='fn11'>[13]</sup> </p><br>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn13'
+        class='absolute object-center m-4 p-2 bg-purple-50 w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Markoff, John. What the Dormouse Said: How the Sixties Counterculture Shaped the Personal Computer industry.
+          Penguin Group, 2005.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn14'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Kastner, Erica. "History of the Dark Web [Timeline]." SOS Can Help, 7 Feb. 2020,
+          www.soscanhelp.com/blog/history-of-the-dark-Web. Accessed 5 Nov. 2020.</p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         This freedom allowed researchers to try daring experiments, such as creating marketplaces for selling contraband
@@ -212,6 +340,18 @@ littlefoot()
         steep for the less tech-savvy to reach the network yet. To make it easier to access, the TOR-project created the
         TOR browser in 2008. Nowadays, we can no longer ignore TOR when we talk about the Dark Web, so I downloaded the
         browser to do field research. </p><br>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn15'
+        class='absolute object-center m-4 p-2 bg-purple-50 w-80 box-border border border-purple-600 text-purple-600  font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          "The Tor Project: Privacy & Freedom Online." TheTOR Project, www.torproject.org/about/history/. Accessed 25
+          Sep. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
 
       <p class='text-l leading-7 text-black-600 text-center font-bold p-4'>EXPOLRE. PRIVATELY.</p>
       <p class='text-xl leading-7 text-black-600 p-4' ;>
@@ -248,6 +388,15 @@ littlefoot()
         interconnected nodes. A node is the point where the curve intersects itself".<sup class='text-purple-600'
           id='fn16'>[16]</sup> </p>
 
+      <!-- /* Footnote popover*/ -->
+      <div id='bn16'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Castells, Manuel. The Network society: A Cross-cultural Perspective. Northampton, MA: Edward Elgar, 2004.</p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         The whole internet infrastructure consists out of nodes. The nodes are independent servers that contain
         information and are connected by the internet. Node servers each contain similar programming, making none of
@@ -260,6 +409,16 @@ littlefoot()
         every other point, and its properties are not necessarily linked to properties of the same nature".<sup
           class='text-purple-600' id='fn17'>[17]</sup>
       </p>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn17'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Deleuze, Gilles, and Félix Guattari. A Thousand Plateaus: Capitalism and Schizophrenia. University of
+          Minnesota Press, 1987. </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='text-xl leading-7 text-black-600 p-4' ;>
         These connections, in digital terms, are the hyperlinks. The type of data doesn't influence the relation between
@@ -284,6 +443,17 @@ littlefoot()
         into the Deep Web. The Dark Web only retains the ability of providing anonymity if the users stay in the
         frameset of those limits and thresholds.
       </p>
+      <!-- /* Footnote popover*/ -->
+      <div id='bn18'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Dufourcq, Annabelle, et al “Transcription Seminar on the Apparatuses of Capture and War Machines by Gilles
+          Deleuze” The Deleuze Seminars, 29 Jan 1980,
+          www.deleuze.cla.purdue.edu/index.php/seminars/thousand-plateaus-v-state-apparatus-and-war-machines-ii/lecture-06.
+          Accessed 7 Dec. 2020.</p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
     </div>
   </div>
@@ -306,6 +476,28 @@ littlefoot()
         became a safe online environment for protesters and activists.<sup class='text-purple-600' id='fn20'>[20]</sup>
       </p>
 
+      <!-- /* Footnote popover*/ -->
+      <div id='bn19'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Obrist, Hans Ulrich et al. "In Conversation with Julian Assange." The Internet Does Not Exist, Sternberg
+          Press, 2015, p. 209.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn20'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Holmes, Aaron. "The Dark Web Turns 20 This Month. From Black Market Hotspots to Facilitating the Arab Spring,
+          Here's How It Changed the World." Business Insider Nederland, 21 Mar. 2020,
+          www.businessinsider.nl/dark-Web-changed-the-world-black-markets-arab-spring-2020-3?international=true.
+          Accessed 9 Oct. 2020.</p>
+      </div>
+      <!-- /* Footnote popover*/ -->
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
         One of the best-known users of TOR and the Dark Web is Edward Snowden. Snowden is known for his bravely
         whistleblowing for mass control and surveillance by the US government. By disclosing this classified
@@ -321,6 +513,35 @@ littlefoot()
         subvert it, it couldn't because it's a decentralized authority".<sup class='text-purple-600'
           id='fn23'>[23]</sup> </p>
 
+      <!-- /* Footnote popover*/ -->
+      <div id='bn21'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Isabela. “Thank You, Edward Snowden”, The TOR Project Blog, 25 Dec. 2019,
+          blog.torproject.org/thank-you-edward-snowden-tor. Accessed 10 Oct. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn22'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Snowden, Edward. Permanent Record. MacMillan, 2019, pp 156.</p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn23'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Perry, Mike. "This Is What a Tor Supporter Looks Like: Edward Snowden." The TOR Project Blog, 30 Dec. 2015,
+          blog.torproject.org/what-tor-supporter-looks edward-snowden. Accessed 10 Oct. 2020.</p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
         Unfortunately, this non-surveilled network does not only offer space for people with good intentions. Criminals,
@@ -330,6 +551,48 @@ littlefoot()
         those websites use the virtual currency Bitcoin, an increasingly popular decentralized and anonymous payment
         system. <sup class='text-purple-600' id='fn24'>[24]</sup> </p>
 
+      <!-- /* Footnote popover*/ -->
+      <div id='bn24'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Christin, Nicolas. Traveling the Silk Road: A Measurement of a Large Anonymous Online Marketplace. Defense
+          Technical Information Center, 2012.
+        </p>
+      </div>
+     <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn25'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          “Politie Zet Cybervrijwilligers in Op Het Dark Web.” Nationale Politie, 5 Dec. 2018,
+          www.politie.nl/nieuws/2018/december/4/politie-zet-cybervrijwilligers-in.html. Accessed 9 Oct. 2020.
+        </p>
+      </div>
+
+      <!-- /* Footnote popover*/ -->
+      <p class='object-center text-xl leading-7 text-black-600 px-4'>
+        Dark Web isn’t a place completely invisible to of law enforcement. According to research by the Dutch police, an
+        estimated 57% of all active domains are involved in illegal activities.<sup class='text-purple-600'
+          id='fn25'>[25]</sup> Some of these websites have already
+        been shut down. Yet, again they will be rehosted under a new server if there are no legal consequences.
+        According to an investigation by Gwern Branwen, more than 300 Dark Web-affiliated criminals have been arrested
+        in the space of 4 years. Nevertheless, we should consider this number as low estimate. Branwen went on: "[…]
+        because it only includes those arrests specifically related to the Dark Web markets and which are publicly
+        known". <sup class='text-purple-600' id='fn26'>[26]</sup> </p><br>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn26'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Cox, Joseph. “The Dark Web as You Know It Is a Myth.” Wired, Conde Nast, 18 Jun. 2016,
+          www.wired.com/2015/06/dark-Web-know-myth. Accessed 16 Oct. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
         Remember the Arab Spring in 2010, when the people of Egypt, Libya, and Syria witnessed the complete shutdown of
@@ -339,7 +602,16 @@ littlefoot()
         used Facebook to share information and Skype to avoid phone tapping. Governments were strict when it came to
         censorship and blockades, and even decided to shut down the entire internet for a while. </p><br>
 
-      
+      <!-- /* Footnote popover*/ -->
+      <div id='bn27'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Talbot, David. "Dissent Made Safer." MIT Technology Review, 2 Apr. 2020,
+          www.technologyreview.com/2009/04/21/213606/dissent-made-safer-2. Accessed 9 Oct. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
         To help protesters, a group called The Hacktivists of Telecomix decided to build a dial-up connection in the
@@ -348,7 +620,18 @@ littlefoot()
         people in Egypt gained access to an uncensored
         network, and the Dark Web became a tool for providing information about upcoming protests and more. </p>
 
-    
+      <!-- /* Footnote popover*/ -->
+      <div id='bn28'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Asokan, Shyamantha. "The 'Hacktivists' of Telecomix Lend a Hand to the Arab Spring." The Washington Post, 6
+          Dec. 2011,
+          www.washingtonpost.com/lifestyle/style/the-hacktivists-of-telecomix-lend-a-hand-to-the-arab-spring/2011/12/05/gIQAAosraO_story.html.
+          Accessed 10 Oct. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
         Over the years, the number of attacks on censorship and privacy via the internet has increased. Countries
@@ -358,6 +641,31 @@ littlefoot()
         part of a Venezuelan authoritarian regime's intervention to restrict communication between online protesters,
         Websites like YouTube, Bing, Periscope, and Google's chat services went down in 2019.<sup
           class='text-purple-600' id='fn30'>[30]</sup> </p>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn29'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Reynolds, Matt. "As Turkey Went to the Polls, a Global Network Was Mapping Online Censorship in Real-Time."
+          Wired, 25 Jun. 2018, www.wired.co.uk/article/netblocks-internet-censorship-shutdowns-turkey-elections.
+          Accessed 12 Nov. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn30'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Harwell, Drew, and Mariana Zuñiga. "Social Media Remains Key to Venezuela's Opposition, despite Efforts to
+          Block It." The Washington Post, 1 May 2019,
+          www.washingtonpost.com/technology/2019/04/30/social-media-remains-key-venezuelas-opposition-despite-efforts-block-it/.
+          Accessed 12 Nov. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
 
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
@@ -370,6 +678,17 @@ littlefoot()
         to the internet and how to use the TOR as a tool to educate themselves about preserving the Amazon region.<sup
           class='text-purple-600' id='fn31'>[31]</sup>
       </p>
+
+      <!-- /* Footnote popover*/ -->
+      <div id='bn31'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Nah. “Digital Security Tools for Human Rights Defenders.” The TOR Project Blog, 11 Nov. 2020,
+          blog.torproject.org/hrd-amazon-training. Accessed 12 Nov. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
 
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
         Although criminals use the Dark Web to hide, the Dark Web isn’t ‘dark’ because it is bad; it's dark because it's
@@ -387,7 +706,16 @@ littlefoot()
       Part Three
     </h1>
 
-     
+     <!-- /* Footnote popover*/ -->
+     <div id='bn32'
+     class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+     style="display: none;">
+     <p class=' text-sm'>
+       Steyerl, Hito. “The Spam of the Earth: Withdrawal from Representation.” The Wretched of the Screen, Sternberg
+       Press. 2012, pp. 160–175.
+     </p>
+   </div>
+   <!-- /* Footnote popover*/ -->
 
     <div id='p3-text' style="display: none;">
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
@@ -410,8 +738,20 @@ littlefoot()
         "surfing the Dark Web; being a dead pixel; being a Wi-Fi signal moving through human bodies; being undocumented
         or poor; being spam caught by a filter; being a disappeared person as an enemy of the state".<sup
           class='text-purple-600' id=''>[33]</sup> </p>
-  
+      
+          <!-- /* Footnote popover*/ -->
+      <div id='bn33'
+        class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+        style="display: none;">
+        <p class=' text-sm'>
+          Steyerl, Hito. “How Not to Be Seen: A Fucking Didactic Educational .MOV File.”, YouTube, uploaded by
+          Lekelly99, 13 Sep. 2017, https://www.youtube.com/watch?v=LE3RlrVEyuo. Accessed 29 May. 2020.
+        </p>
+      </div>
+      <!-- /* Footnote popover*/ -->
+
      
+
       <p class='object-center text-xl leading-7 text-black-600 px-4'>
         Do you see the relationship I'm making here with the Dark Web? Let me explain where I see the correlation: Using
         a
@@ -432,7 +772,16 @@ littlefoot()
         excessive amount of — you know — constant surveillance. On the other hand, being invisible can be deadly". 
         <sup class='text-purple-600' id='fn34'>[34]</sup> </p>
 
-       
+         <!-- /* Footnote popover*/ -->
+      <div id='bn34'
+      class='absolute object-center m-4 p-2 bg-purple-50  w-80 box-border border border-purple-600 text-purple-600 font-serif'
+      style="display: none;">
+      <p class=' text-sm'>
+        “Hito Steyerl – ‘Being Invisible Can Be Deadly’ | TateShots” YouTube, uploaded by Tate, 17 May 2016,
+        https://www.youtube.com/watch?v=kKAKgrZZ_ww&feature=emb_logo. Accessed 2 Sep. 2020.
+      </p>
+    </div>
+    <!-- /* Footnote popover*/ -->
     <p class='object-center text-xl leading-7 text-black-600 px-4'>
         Being fully anonymous and invisible isn't always relevant for most people. However, anonymity isn't only an act
         of
@@ -652,23 +1001,6 @@ littlefoot()
 
       </p>
     </div>
-    <aside class="footnotes">
-      <hr>
-      <ol>
-        <li id="fn:1">
-          <p>
-            Footnote 1.
-            <a href="#fnref:1" class="reversefootnote">&#160;&#8617;</a>
-          </p>
-        </li>
-        <li id="fn:2">
-          <p>
-            Footnote 2.
-            <a href="#fnref:2" class="reversefootnote">&#160;&#8617;</a>
-          </p>
-        </li>
-      </ol>
-    </aside>
   </div>
   </div>
 
@@ -682,11 +1014,7 @@ littlefoot()
 
 
   <!-- /* NO HTML BEYOND THIS SECTION*/ -->
-  <script src="https://unpkg.com/littlefoot/dist/littlefoot.js" type="application/javascript"></script>
-<script type="application/javascript">
-  littlefoot.default()
-</script>
-</body>
 
+</body>
 
 </html>

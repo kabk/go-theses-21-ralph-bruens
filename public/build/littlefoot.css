@@ -52,6 +52,11 @@
     padding: .35em .5em
 }
 
+.littlefoot-footnote__button__ellipsis svg {
+    float: left;
+    height: .3em
+}
+
 .littlefoot-footnote__button__number::after {
     color: rgba(110, 110, 110, 0.5);
     content: attr(data-footnote-number);
@@ -98,11 +103,9 @@
 }
 
 .littlefoot-footnote {
-    background: #fafafa;
-    
-    border: 1px solid #6a452e;
-    font-family: 'Times New Roman', Times, serif;
-    color:#6a452e;
+    background: #ffffff;
+    border: 1px solid #6f00ff;
+    box-shadow:0;
     box-sizing: border-box;
     display: inline-block;
     left: 0;
@@ -130,7 +133,7 @@
     transform: scale(1) translateZ(0)
 }
 
-.littlefoot-footnote.is-scrollable::after {
+/* .littlefoot-footnote.is-scrollable::after {
     content: '';
     position: absolute;
     bottom: .3875em;
@@ -145,7 +148,7 @@
     transition-property: opacity;
     transition-duration: .25s;
     transition-timing-function: ease
-}
+} */
 
 .littlefoot-footnote.is-scrollable .littlefoot-footnote__wrapper::before,
 .littlefoot-footnote.is-scrollable .littlefoot-footnote__wrapper::after {
@@ -180,7 +183,7 @@
     transition-delay: 0
 }
 
-@media (max-width: 1px) {
+@media (max-width: 720px) {
     .littlefoot-footnote {
         border-radius: 0;
         border-width: 1px 0 0;
@@ -268,6 +271,9 @@
     margin-bottom: .6em
 }
 
+.littlefoot-footnote__tooltip {
+    
+}
 
 .is-positioned-bottom .littlefoot-footnote__tooltip {
     top: -0.65em
