@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     
     fontFamily: {
-    'serif': ['ui-serif', "Times New Roman"]
+    'serif': ['"Times New Roman"']
    }
     extend: {},
   },
