@@ -11308,11 +11308,17 @@ video {
     src: url("font/times.woff2") format("woff2"),
          url("font/times.woff") format("woff");
   }
+
+  @font-face {
+    font-family: "BW";
+    src: url("font/BWHaasText-55Roman.woff2") format("woff2"),
+         url("font/BWHaasText-55Roman.woff") format("woff");
+  }
        
        
 
 .font-sans {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "BW", Arial, sans-serif;
 }
 
 .font-serif {
