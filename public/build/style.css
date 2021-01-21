@@ -6,3 +6,8 @@ html, body {
     }
 }
 
+
+::selection {
+    color: black;
+    background: black;
+  }
