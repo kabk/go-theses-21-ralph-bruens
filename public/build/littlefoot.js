@@ -648,9 +648,7 @@
     numberResetSelector: "",
     scope: "",
     contentTemplate: '<aside class="littlefoot-footnote" id="fncontent:<% id %>"><div class="' + P + '"><div class="' + E + '"><% content %></div></div><div class="' + u + '"></div></aside>',
-    buttonTemplate: '<button aria-label="Footnote <% number %>" class="littlefoot__button" id="<% reference %>" title="See Footnote <% number %>"/> <% number %> </button>'
-
-    
+    buttonTemplate: '<button class="littlefoot-footnote__button littlefoot-footnote__button__ellipsis" id="<% reference %>" title="See Footnote <% number %>" aria-expanded="false"><svg role="img" aria-labelledby="title-<% reference %>" viewbox="0 0 31 6" preserveAspectRatio="xMidYMid"><title id="title-<% reference %>">Footnote <% number %></title><circle r="3" cx="3" cy="3" fill="white"></circle><circle r="3" cx="15" cy="3" fill="white"></circle><circle r="3" cx="27" cy="3" fill="white"></circle></svg></button>'
   };
 
   function q(e, n) {
@@ -1096,4 +1094,3 @@
     value: !0
   })
 });
-å
