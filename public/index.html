@@ -14,9 +14,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
   <script src="build/index.js"></script>
   
+  
 </head>
 
-<body class='max-w-full'>
+<body class=' max-w-full'>
+  
   <!-- /* TITLE*/ -->
   <div class='  top-0  z-20  container box-border max-w-full'>
     <img class=" w-full h-screen mt-30" src="img/Thesis_Cover.gif" alt="Image 1">
@@ -30,10 +32,30 @@
       <br>  Being Found
     </h1>
   </div>
+  
 
+ 
 
   <aside class=" wscreen footnotes">
-
+    <div
+  class=' bg-black z-20  container box-border  max-w-full border-t-0 border-r-0 border-b border-l-0 border-black'>
+  
+  <h1 class="tracking-tight text-2xl font-sansserif leading-6 text-white text-left p-4">
+    Hello
+    <br>  <div class="info-big"></div><div id="fingerprint" class="fp"></div>
+    <br/><hr/><br/>
+    <div class="info"></div>
+    <div class="text-l info">User Agent:</a><div id="useragent" class="fp"></div>
+    <div class="info">Browser:</div><div id="browser" class="fp"></div>
+    <div class="info">Display:</div><div id="display" class="fp"></div>
+    <div class="info">OS:</div><div id="os" class="fp"></div>
+   
+    <div class="info">Touch:</div><div id="touch" class="fp"></div>
+    
+   
+  </h1>
+</div>
+    
     <!-- /* TEXT THESIS*/ -->
     <div class=' bg-white container box-border max-w-full border-t-0 border-r-0 border-b border-l-0 border-black'>
       <h1 id='abstract-title' class="text-6xl font-serif text-black-600 p-4">
@@ -772,13 +794,13 @@
 
     </div>
 
-    <div class=' bg-white container box-border max-w-full border-t-0 border-r-0 border-b border-l-0 border-black'>
-      <h1 id='p5-title' class="text-6xl tracking-tight font-serif text-black-600 p-4">
+    <div class=' bg-black container box-border max-w-full border-t-0 border-r-0 border-b border-l-0 border-black'>
+      <h1 id='p5-title' class="text-6xl tracking-tight font-serif text-white p-4">
         Glossary
       </h1>
 
       <div id='p5-text' style="display: none;">
-        <p class='object-center text-l leading-6  tracking-tight text-black pt-0 p-4'>
+        <p class='object-center text-l leading-6  tracking-tight text-white pt-0 p-4'>
           <b>4chan</b><br>
           Influential Surface Web message board where users all post under the name ‘Anonymous’.
           <br><br>
@@ -836,9 +858,9 @@
     </div>
     
     <div class=' bg-white container box-border max-w-full' >    
-      <p class=' object-center tracking-tight font-serif text-s -leading-2 text-left tracking-tight text-black-600 pt-5 p-4'>
+      <p class=' object-center tracking-tight font-serif text-s leading-4 text-left tracking-tight text-purple-600 ml-2 pt-8 p-4'>
 
-      Text by Ralph Bruens<br>
+      Text by Ralph Bruens<br><br>
       Koninklijke Academie van Beeldende Kunsten – 
       <br>The Hague (KABK)<br>
       January 2021, Tilburg/The Hague, NL<br> 
@@ -1225,6 +1247,7 @@
 
 
   <!-- <script src="https://unpkg.com/littlefoot/dist/littlefoot.js" type="application/javascript"></script> -->
+  <script src="build/useragent.js"></script>
   <script src="build/littlefoot.js" type="application/javascript"></script>
   <script type="application/javascript">
     littlefoot.default()

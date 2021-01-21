@@ -327,6 +327,9 @@ $(document).ready(function() {
     });
   });
 
+  const [red, green, blue] = [69, 111, 225]
+const section1 = document.getElementById('section1')
+
 
 
 
