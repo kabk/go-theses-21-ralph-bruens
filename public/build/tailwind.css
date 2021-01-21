@@ -11303,9 +11303,11 @@ video {
 }
 
 
-@font-face {
-  font-family: 'TimesR';
-  src: url('font/times.woff') format('woff'), /* Pretty Modern Browsers */ }
+  @font-face {
+    font-family: "Times";
+    src: url("font/times.woff2") format("woff2"),
+         url("font/times.woff") format("woff");
+  }
        
        
 
